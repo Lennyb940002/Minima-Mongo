@@ -9,7 +9,6 @@ import { TablePage } from './pages/PageVente/TablePage';
 import Decla from './pages/PageVente/Declaration';
 import Product from './pages/PageVente/Product';
 import Marketing from './pages/PageVente/Marketing';
-import SuiviPerso from './pages/PageSuiviPerso/HomePageSuiviPerso';
 import Signup from './pages/SignupPage';
 import Intro from './pages/Intro'
 
@@ -30,7 +29,6 @@ function App() {
             <Route path="/e-commerce/decla" element={<Decla />} />
             <Route path="/e-commerce/product" element={<Product />} />
             <Route path="/e-commerce/marketing" element={<Marketing />} />
-            <Route path="/suivi Personnel" element={<SuiviPerso />} />
             <Route path="/signup" element={<Signup />} />
             <Route path="/intro" element={<Intro />} />
           </Routes>
